@@ -1,12 +1,8 @@
-// import { Chart } from "chart.js";
-// "https://cdn.jsdelivr.net/npm/chart.js";
-const body = document.getElementsByTagName("body")[0]!;
+import { Chart } from "chart.js";
+var body = document.getElementsByTagName("body")[0];
 body.style.background = "red";
-
-const ctx = (
-  document.getElementById("myChart") as HTMLCanvasElement
-).getContext("2d")!;
-const myChart = new Chart(ctx, {
+var ctx = document.getElementById("myChart").getContext("2d");
+var myChart = new Chart(ctx, {
   type: "bar",
   data: {
     labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
