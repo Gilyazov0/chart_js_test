@@ -1,4 +1,5 @@
-import { Chart } from "chart.js";
+"use strict";
+// import { Chart } from "chart.js";
 // "https://cdn.jsdelivr.net/npm/chart.js";
 const body = document.getElementsByTagName("body")[0];
 body.style.background = "red";
